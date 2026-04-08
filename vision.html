@@ -1,0 +1,288 @@
+<!-- 宣告網頁文件是HTML5格式 -->
+<!doctype html>
+<!-- 網頁所屬地區的語言 -->
+<html lang="zh-Hant-TW">
+<!-- 檔頭 -->
+
+<head>
+  <!-- 文字編碼 -->
+  <meta charset="utf-8">
+  <!-- RWD響應式網站 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 網站作者(擁有者)、品牌名稱 -->
+  <meta name="author" content="森光動物園">
+  <!-- 網頁描述，網頁內容濃縮，可透過ChatGPT協助生成 -->
+  <meta name="description"
+    content="森光動物園致力於棲地復育與物種守護，透過十大保育願景與綠能循環行動，實踐 2030 碳中和目標。我們誠邀您參與這場結合科技與生態的永續歷險，共同見證生命回歸荒野的動人承諾。">
+  <!-- 網頁編輯器 -->
+  <meta name="generator" content="Visual Studio Code">
+  <!-- 網頁關鍵字，網頁內容提取，可透過ChatGPT協助提取 -->
+  <meta name="keywords"
+    content="森光動物園,森光動物園願景,棲地復育計畫,瀕危物種保護,石虎保育,台灣雲豹復育,沉浸式生態教育,永續建築設計,綠色循環經濟,碳中和營運,野放訓練基地,在地共榮計畫,生物廊道建設,2030減碳承諾,環境保育專案">
+  <!-- favicon品牌logo，第一行針對IE和其他瀏覽器，第二行針對IE之外的瀏覽器 -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- 網頁標題，包含網站名稱和網頁名稱-->
+  <title>森光動物園-願景行動</title>
+  <!-- Boothstrap雲端CSS外部檔 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- 自訂的CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- GOogleIconFonts網頁小圖示 -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--GA追蹤碼  -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFK6RYYWR0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-NFK6RYYWR0');
+  </script>
+</head>
+<!-- 網頁本文 -->
+
+<body>
+  <!-- 首頁 -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">森光動物園</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">關於我們</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="explore.html">探索展區</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html">參觀資訊</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="vision.html">願景行動</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@trial-162231.url.tw" target="_blank">留言發問</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- 輪播圖外層 -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/index/yancabrera-basilisk-5951351_1920.webp" class="d-block w-100" alt="綠色大蜥蜴" title="綠色大蜥蜴"
+            aria-lable="綠色大蜥蜴">
+        </div>
+        <div class="carousel-item">
+          <img src="images/index/anilsharma26-dusky-leaf-monkeys-6933043_1920.webp" class="d-block w-100" alt="動物園黃葉猴"
+            title="動物園黃葉猴" aria-lable="動物園黃葉猴">
+        </div>
+        <div class="carousel-item">
+          <img src="images/index/lwittsieker-capybara-8209095_1920.webp" class="d-block w-100" alt="動物園水豚" title="動物園水豚"
+            aria-lable="動物園水豚">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <div class="container mt-5 mb-5">
+
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <img src="images/OrignalPic/forest/bigpicture-of-forest.jpg" class="img-fluid rounded shadow-lg mb-5"
+              style="width: 100%; height: 500px; object-fit: cover;" alt="森光動物園願景">
+
+            <h1 class="main-title d-flex justify-content-center align-items-center mb-5">
+              <i class="material-icons me-3">nature_people</i>第一部分：核心使命
+            </h1>
+          </div>
+        </div>
+
+        <div class="row g-5 px-md-4 mb-5 pb-5">
+          <div class="col-md-6">
+            <h4 class="sub-title d-flex align-items-center mb-3"><i
+                class="material-icons me-2">terrain</i>棲地微縮工程：還原生命的原始座標</h4>
+            <p class="text-secondary leading-relaxed">
+              在森光動物園，我們拒絕傳統的展示框架。透過土壤力學與植被演替研究，我們在園區內精準複製了台灣中高海拔的原始林相。這不只是視覺上的模擬，更是為了讓動物能在最熟悉的濕度、氣溫與氣味中生活。</p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="sub-title d-flex align-items-center mb-3"><i
+                class="material-icons me-2">pets</i>物種復育方舟：延續瀕危生命的族群火種</h4>
+            <p class="text-secondary leading-relaxed">
+              我們扮演著生物多樣性的最後防線。透過與國際動物園組織的基因交換計畫，森光動物園針對石虎、台灣雲豹及多種特有種鳥類建立了科學化的育種系統，承載著重返山林、繁衍族群的終極使命。</p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="sub-title d-flex align-items-center mb-3"><i
+                class="material-icons me-2">menu_book</i>沉浸式生態教育：在自然中學會生命課題</h4>
+            <p class="text-secondary leading-relaxed">
+              我們深信，知識的傳遞應伴隨著情感的觸動。園區內的「森林走廊」讓遊客能以不干擾的方式，近距離觀察生態鏈的運作。透過保育員的現場解說與互動演示，將枯燥的課本知識轉化為一場場關於共生的生命教育。</p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="sub-title d-flex align-items-center mb-3"><i
+                class="material-icons me-2">apartment</i>低衝擊建築美學：隱匿於林間的永續設施</h4>
+            <p class="text-secondary leading-relaxed">
+              森光動物園的建築結構設計遵循「環境優先」原則。我們採用耐候性極佳的燒杉材料與回收鋼構，讓人工設施完美隱入光影之間，降低建築對周遭生態系統的熱島效應，成為景觀中和諧的一部分。</p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="sub-title d-flex align-items-center mb-3"><i
+                class="material-icons me-2">biotech</i>數位守護監測：以尖端科技優化照護品質</h4>
+            <p class="text-secondary leading-relaxed">科技是我們照護生命的隱形雙手。全區覆蓋的感測器 24
+              小時紀錄動物的活動頻率與心理狀態。這套數據系統讓我們能第一時間預判動物健康風險，我們用最嚴謹的科學數據，支撐起最感性的守護工作。</p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="sub-title d-flex align-items-center mb-3"><i
+                class="material-icons me-2">recycling</i>零污染資源循環：實踐森林內的循環經濟</h4>
+            <p class="text-secondary leading-relaxed">
+              我們力求將對環境的負擔降至最低。園區內的有機廢棄物透過專業系統轉化為生質能與有機肥料，回饋給園內原生植物區。我們致力於打造封閉式的循環鏈，示範如何在營運場域的同時達成資源效率最大化。</p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="sub-title d-flex align-items-center mb-3"><i
+                class="material-icons me-2">electric_car</i>低碳足跡旅程：引領責任旅遊的新標準</h4>
+            <p class="text-secondary leading-relaxed">
+              從抵達那一刻起，綠色思維就已啟動。我們提供全電動接駁巴士與數位票務，鼓勵遊客利用補水站。透過優化動線與智慧系統，大幅減少不必要的能源消耗，讓每一位訪客在洗滌心靈的同時，也實踐低碳價值。</p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="sub-title d-flex align-items-center mb-3"><i
+                class="material-icons me-2">groups</i>在地共生網絡：串聯部落與農民的綠色經濟</h4>
+            <p class="text-secondary leading-relaxed">
+              動物園與地方繁榮息息相關。我們優先採購鄰近農友的有機蔬果作為飼糧，並聘僱在地住民參與導覽。這份夥伴關係不僅活絡了在地產業，更讓森光動物園成為社區的榮耀，共同編織守護家鄉自然資源的安全網。</p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="sub-title d-flex align-items-center mb-3"><i
+                class="material-icons me-2">diversity_3</i>全感應生物廊道：織補破碎的森林生命鏈</h4>
+            <p class="text-secondary leading-relaxed">
+              除了保護區，我們更致力於修復周邊生態連通性。透過設立生態過廊，鼓勵野生的小型哺乳類與昆蟲安全穿梭。這項計畫旨在解決棲地碎片化問題，讓動物園成為開放的生態節點，協助在地物種擴散與交流。</p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="sub-title d-flex align-items-center mb-3"><i
+                class="material-icons me-2">auto_awesome</i>未來願景承諾：照亮人與自然和解的道路</h4>
+            <p class="text-secondary leading-relaxed">我們的目標是成為全球生態營運典範。我們承諾在 2030
+              年達成完全碳中和營運，並輸出復育經驗。這是一場漫長的馬拉松，我們邀請您與我們同行，見證生命回歸森林，迎接人與自然共榮的嶄新時代。</p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5 pt-5">
+        <div class="col-12 text-center mb-5">
+          <h1 class="main-title d-flex justify-content-center align-items-center">
+            <i class="material-icons me-3">energy_savings_leaf</i>第二部分：永續行動
+          </h1>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card mt-4 shadow-sm">
+              <img src="images/OrignalPic/forest/eco-energy.jpg" class="card-img-top" alt="綠能循環" title="綠能循環">
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="material-icons"
+                    style="font-size:2rem;color:green; vertical-align: text-bottom;">filter_hdr</i>1. 綠能循環
+                </h2>
+                <p class="card-text">
+                  森光動物園全區採用綠建築標準，整合太陽能發電與雨水回收系統，實踐碳中和營運承諾。我們相信能源的永續利用是保護森林的第一步，讓每一度電都來自大自然的饋贈。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card mt-4 shadow-sm">
+              <img src="images/OrignalPic/forest/pangolin-returning.jfif" class="card-img-top" alt="野放計畫" title="野放計畫">
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="material-icons"
+                    style="font-size:2rem;color:green; vertical-align: text-bottom;">filter_hdr</i>2. 野放計畫
+                </h2>
+                <p class="card-text">
+                  復育是為了讓生命回歸自由。我們與專業團隊協作，每年固定將復育成效優異的個體送回野外棲地。透過精準的追蹤監測，確保牠們能在原生家園中茁壯成長。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card mt-4 shadow-sm">
+              <img src="images/OrignalPic/forest/organic-vegetables.jfif" class="card-img-top" alt="在地共榮" title="在地共榮">
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="material-icons"
+                    style="font-size:2rem;color:green; vertical-align: text-bottom;">filter_hdr</i>3. 在地共榮
+                </h2>
+                <p class="card-text">
+                  我們與鄰近部落簽署契作協議，採購新鮮有機農產供應園區。透過縮短食物里程，支持在地友善農業，創造動物、農民與環境三方共贏的綠色經濟網絡。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card mt-4 shadow-sm">
+              <img src="images/OrignalPic/forest/a-group-of-children.jfif" class="card-img-top" alt="教育傳承" title="教育傳承">
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i class="material-icons"
+                    style="font-size:2rem;color:green; vertical-align: text-bottom;">filter_hdr</i>4. 教育傳承
+                </h2>
+                <p class="card-text">
+                  定期舉辦生態講堂與環境探索營，啟發下一代對自然科學的興趣。我們將知識化為種子，播撒在孩子心中，期盼未來的地球能由具備保育意識的守護者們傳承下去。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="container mt-5 py-5 mb-5 border-top">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <p class="mb-0">森光動物園 &copy; 2026</p>
+          </div>
+          <div class="col-6 text-end">
+            <a href="#top" class="btn-dark-gold">回到頁面頂端</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+  </main>
+  <!-- Bootstrap雲端JS外部檔 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

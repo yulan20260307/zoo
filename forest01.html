@@ -1,0 +1,219 @@
+<!-- 網頁文件宣告HTML5文件 -->
+<!doctype html>
+<!-- 網頁所屬地區語言 -->
+<html lang="zh-Hant-TW">
+  <!-- 網頁檔頭 -->
+  <head>
+    <!-- 空元素，中繼標籤 -->
+    <!-- 網頁文字編碼 -->
+    <meta charset="utf-8">
+    <!-- RWD響應式網站 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="樂遊旅行">
+    <meta name="description" content="">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="keywords" content="樂遊旅行, ">
+    <!-- favicon(Logo網頁版) -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.ico">
+    <!-- 網頁標題包含"網站名稱"和"網頁名稱" -->
+    <title>樂遊旅行-住宿資訊</title>
+    <!-- Bootstrap雲端CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- GA追蹤分析 -->
+
+  </head>
+  <!-- 網頁本文 -->
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">樂遊旅行</a>
+          <!-- 手機版，導覽會收合成按鈕 -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- 導覽主內容，按鈕選單，搜尋表單 -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="viewpoint.html">景點介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="hotel.html">住宿資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="safe.html">守護森林</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.php">留言發問</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/taipei-taiwan-g618d33cde_1280.webp" class="d-block w-100" alt="台北101大樓" title="台北101大樓" aria-label="台北101大樓">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/paris-gc25e242bc_1280.webp" class="d-block w-100" alt="巴黎街道" title="巴黎街道" aria-label="巴黎街道">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/paris-ge57f5fe5e_1280.webp" class="d-block w-100" alt="巴黎橋梁" title="巴黎橋梁" aria-label="巴黎橋梁">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- 以下是網頁主內容 -->
+      <div class="container">
+        <div class="row mt-5">
+          <div id="notes" class="card card-no-border">
+            <img src="images/原圖/forest/bigpicture-of-forest.jpg" class="imgCut" alt="台北寒舍艾麗酒店總統套房的內部裝潢與擺設" title="台北寒舍艾麗酒店總統套房的內部裝潢與擺設" aria-label="台北寒舍艾麗酒店總統套房的內部裝潢與擺設">
+            <h2 class="alert alert-warning mt-4" role="alert">10大住宿注意事項</h2>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h5>1.尊重訂房承諾，勿無故取消預約</h5>
+                  <p>許多飯店為便利旅客，提供免訂金或到場付款服務，體現彈性與信任。若旅客臨時取消或無故未現身，將導致業者損失房間收益，甚至影響後續營運。請務必於合理時間內完成更改或取消，尊重彼此權益。</p>
+                </div>
+                <div class="col-lg-6">
+                  <h5>2.遵守住宿人數規定，勿擅自加人</h5>
+                  <p>房型所列入住人數多基於消防法規及安全考量，超出人數恐遭拒絕入住或加收費用。旅客應如實申報同行人數，並避免擅自超住，確保住宿安全無虞。</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <h5>3.詳閱住宿規則，避免違規行為</h5>
+                  <p>每間旅宿皆有其管理規則，包含是否可使用廚房、電器限制、吸菸區域等。訂房前應詳閱房屋守則並遵守執行，避免因違規行為而產生爭議或費用。</p>
+                </div>
+                <div class="col-lg-6">
+                  <h5>4.入住期間請保持適度音量</h5>
+                  <p>與親友同遊雖歡樂，亦應顧及其他住客的安寧。夜間或深夜時段（22:00後），請降低音量，避免播放音樂、大聲談話等干擾行為，共同維護優質住宿品質。</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <h5>5.深夜請降低噪音，避免擾鄰</h5>
+                  <p>夜間請勿操作高噪音電器如洗衣機、吸塵器或喇叭播放等行為，以維護住戶休息空間。如需觀影或娛樂活動，建議使用耳機並降低音量。</p>
+                </div>
+                <div class="col-lg-6">
+                  <h5>6.珍惜使用水電資源，響應節能減碳</h5>
+                  <p>雖多數住宿已含電費，但仍應避免長時間開啟空調或燈具無人使用狀況。節約用水電不僅利人利己，更為保護地球盡一份心力。</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <h5>7.尊重空間整潔，依規定脫鞋進屋</h5>
+                  <p>部分旅宿採日式或居家風格，進入客房須脫鞋以維持地面清潔。旅客可自備拖鞋或穿著襪子入內，配合住宿文化，提升住宿體驗。</p>
+                </div>
+                <div class="col-lg-6">
+                  <h5>8.配合垃圾分類，維護環境整潔</h5>
+                  <p>垃圾分類為多數城市法定規定，部分旅宿會設置分類桶或張貼指示標籤。請依規分類丟棄廢棄物，避免因誤投產生清潔爭議或罰款。</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <h5>9.正確使用榻榻米與設施</h5>
+                  <p>入住和室房型時，請勿穿鞋踏上榻榻米，也應避免放置重物（如行李箱）於上，避免損傷。特殊設計如「凹間」應尊重其文化背景與用途，切勿隨意使用。</p>
+                </div>
+                <div class="col-lg-6">
+                  <h5>10.勿攜走非贈品備品，維護信任文化</h5>
+                  <p>旅宿提供之備品如牙刷、梳子等為一次性用品可帶走，但非免費贈品如吹風機、毛巾、保養品等應歸還原位。如對某項產品有興趣，可洽櫃台或線上洽詢購買資訊，勿擅自攜出。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="alert alert-warning" role="alert">住宿推薦</h2>
+        <div class="row">
+          <div class="col-lg-6 mt-3">
+            <div class="card">
+              <img src="images/hotel/HumbleHouseHotel.webp" class="card-img-top" alt="台北寒舍艾麗酒店" title="台北寒舍艾麗酒店" aria-label="台北寒舍艾麗酒店">
+              <div class="card-body">
+                <h5 class="card-title">北部。台北寒舍艾麗酒店</h5>
+                <p class="card-text">台北寒舍艾麗酒店位於信義計畫區核心，緊鄰台北101、百貨商圈與捷運市政府站，是結合都會時尚與現代藝術的五星級飯店。酒店內設計風格簡約典雅，融合自然光與開闊視野，提供舒適的住宿空間與高品質的服務體驗。<br>館內設有多間餐廳、健身房、宴會廳及高空酒吧，無論商務出差或假期旅遊皆適宜。部分房型可遠眺台北101夜景，深受國內外旅客喜愛。寒舍艾麗酒店為旅人打造一處靜謐卻便利的休憩據點，是探索台北的絕佳起點。</p>
+                <p class="text-end">
+                  <a href="http://www.humblehousehotels.com/zh-tw/" target="_blank" class="btn btn-warning" role="button">艾麗酒店</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-3">
+            <div class="card">
+              <img src="images/hotel/EvergreenLaurelHotel.webp" class="card-img-top" alt="長榮桂冠酒店" title="長榮桂冠酒店" aria-label="長榮桂冠酒店">
+              <div class="card-body">
+                <h5 class="card-title">中部。台中長榮桂冠酒店</h5>
+                <p class="card-text">台中長榮桂冠酒店座落於台中市西區，鄰近勤美商圈與草悟道，地理位置優越，交通便利。酒店融合現代風格與典雅氣息，提供舒適寬敞的客房與貼心服務，是商務旅客與親子旅遊的理想選擇。<br>館內設有多功能會議廳、健身房、泳池與多樣化餐飲選擇，包括中式餐廳與自助餐廳，滿足不同需求。酒店以高品質服務著稱，致力於提供賓至如歸的住宿體驗，讓旅客在城市中心也能享有寧靜與便利兼具的旅程。</p>
+                <p class="text-end">
+                  <a href="https://www.evergreen-hotels.com/branch2/?lang=zh-TW&d1b_Sn=5" target="_blank" class="btn btn-warning" role="button">桂冠酒店</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6 mt-3">
+            <div class="card">
+              <img src="images/hotel/E-DaRoyalHotel.webp" class="card-img-top" alt="高雄義大皇家酒店" title="高雄義大皇家酒店" aria-label="高雄義大皇家酒店">
+              <div class="card-body">
+                <h5 class="card-title">南部。高雄義大皇家酒店</h5>
+                <p class="card-text">高雄義大皇家酒店位於義大世界園區內，緊鄰義大遊樂世界與義大購物廣場，是南台灣結合娛樂、購物與休憩的五星級渡假飯店。酒店外觀宏偉，客房設計典雅舒適，擁有多種房型選擇，適合家庭旅遊、情侶度假與商務出差。<br>館內設施齊全，包含溫水泳池、兒童遊戲區、水療中心與健身房，並提供中西式餐飲服務。旅客可盡情享受一站式的度假體驗，無需遠行就能滿足吃喝玩樂的多重需求。義大皇家酒店不僅提供高品質的住宿環境，更讓每一次旅行充滿歡樂與便利。</p>
+                <p class="text-end">
+                  <a href="https://www.edaroyal.com.tw/" target="_blank" class="btn btn-warning" role="button">義大皇家酒店</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-3">
+            <div class="card">
+              <img src="images/hotel/ChateaudeChineHotelHualien.webp" class="card-img-top" alt="花蓮翰品酒店" title="花蓮翰品酒店" aria-label="花蓮翰品酒店">
+              <div class="card-body">
+                <h5 class="card-title">東部。花蓮翰品酒店</h5>
+                <p class="card-text">花蓮翰品酒店位於花蓮市區，緊鄰太平洋海岸與花蓮港，交通便利，距離東大門夜市與市中心景點僅數分鐘車程。酒店外觀採用歐式建築風格，設計典雅具藝術感，提供舒適多樣的客房選擇，適合家庭旅遊與情侶度假。<br>館內設有中西式餐廳、兒童遊戲區與會議設施，滿足不同旅客的需求。酒店注重細節服務，提供親切專業的接待與完善的旅遊資訊，讓每位訪客都能安心探索花蓮之美。無論是欣賞清水斷崖、太魯閣峽谷，或體驗在地文化，翰品酒店都是前往東部旅遊的理想住宿選擇。</p>
+                <p class="text-end">
+                  <a href="https://hualien.chateaudechine.com/tw/index" target="_blank" class="btn btn-warning" role="button">翰品酒店</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#top" class="btn btn-danger">回到頁面頂端</a></p>
+        <p>樂遊旅行 &copy; 2025</p>
+      </footer>
+    </main>
+    <!-- Bootstrap雲端JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
+</html>

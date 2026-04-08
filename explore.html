@@ -1,0 +1,207 @@
+<!-- 宣告網頁文件是HTML5格式 -->
+<!doctype html>
+<!-- 網頁所屬地區的語言 -->
+<html lang="zh-Hant-TW">
+<!-- 檔頭 -->
+
+<head>
+  <!-- 文字編碼 -->
+  <meta charset="utf-8">
+  <!-- RWD響應式網站 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 網站作者(擁有者)、品牌名稱 -->
+  <meta name="author" content="森光動物園">
+  <!-- 網頁描述，網頁內容濃縮，可透過ChatGPT協助生成 -->
+  <meta name="description" content="探索森光物語六大主題展區，從極地北極狐、寒林雪豹到熱帶緋紅金剛鸚鵡與療癒樹懶，近距離感受橫跨全球的原始生命律動與自然奇蹟。">
+  <!-- 網頁編輯器 -->
+  <meta name="generator" content="Visual Studio Code">
+  <!-- 網頁關鍵字，網頁內容提取，可透過ChatGPT協助提取 -->
+  <meta name="keywords" content="森光動物園,北極狐,金錢豹,緋紅金剛鸚鵡,二趾樹懶,非洲獅,紅河豬,極地秘境,熱帶雨林區,野生動物觀察,森光物語展區,生態旅遊,動物園推薦,親子自然教育">
+  <!-- favicon品牌logo，第一行針對IE和其他瀏覽器，第二行針對IE之外的瀏覽器 -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- 網頁標題，包含網站名稱和網頁名稱-->
+  <title>森光動物園-探索展區</title>
+  <!-- Boothstrap雲端CSS外部檔 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- 自訂的CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- GOogleIconFonts網頁小圖示 -->
+  <!--  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--GA追蹤碼  -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFK6RYYWR0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-NFK6RYYWR0');
+  </script>
+</head>
+<!-- 網頁本文 -->
+
+<body>
+  <!-- 首頁 -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">森光動物園</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="about.html">關於我們</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="explore.html">探索展區</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html">參觀資訊</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="vision.html">願景行動</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@trial-162231.url.tw" target="_blank">留言發問</a>
+
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- 輪播圖外層 -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/index/yancabrera-basilisk-5951351_1920.webp" class="d-block w-100" alt="綠色大蜥蜴" title="綠色大蜥蜴"
+            aria-lable="綠色大蜥蜴">
+        </div>
+        <div class="carousel-item">
+          <img src="images/index/anilsharma26-dusky-leaf-monkeys-6933043_1920.webp" class="d-block w-100" alt="動物園黃葉猴"
+            title="動物園黃葉猴" aria-lable="動物園黃葉猴">
+        </div>
+        <div class="carousel-item">
+          <img src="images/index/lwittsieker-capybara-8209095_1920.webp" class="d-block w-100" alt="動物園水豚" title="動物園水豚"
+            aria-lable="動物園水豚">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container mt-5">
+      <h2 class="alert alert-success mt-5" role="alert">蒼藍極光 (Azure Tundra)</h2>
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card h-100">
+            <img src="images/explore/Arctic- fox.webp" class="card-img-top" alt="北極狐">
+            <div class="card-body">
+              <h4 class="card-title">北極狐</h4>
+              <p class="card-text">在森光的「極地秘境」中，北極狐如同一朵在雪地中綻放的銀蓮花。牠那身潔白如雪、觸感蓬鬆的毛皮，是冬日景區最溫柔的點綴。輕盈的足跡在霜雪間跳躍，彷彿大地派來的雪地精靈。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card h-100">
+            <img src="images/explore/Arctic-Snow-leopard-.jpg" class="card-img-top" alt="雪中金錢豹">
+            <div class="card-body">
+              <h4 class="card-title">雪中金錢豹</h4>
+              <p class="card-text">穿梭於森光的「寒林深處」，金錢豹展現了力量與美感的極致交織。當細雪緩緩飄落，其華麗的玫瑰斑紋在蒼翠松林與皚皚白雪間顯得格外奪目，展現出不怒自威的王者氣場。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="alert alert-success mt-5" role="alert">翡翠幻境 (Emerald Rainforest)</h2>
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card h-100">
+            <img src="images/explore/Rainforest-Scarlet-Macaw.jpg" class="card-img-top" alt="緋紅金剛鸚鵡">
+            <div class="card-body">
+              <h4 class="card-title">緋紅金剛鸚鵡</h4>
+              <p class="card-text">走進「熱帶雨林區」，緋紅金剛鸚鵡無疑是這片翠綠中最耀眼的寶石。牠身披紅、黃、藍相間的絢麗羽翼，宛如畫家筆下最狂放的色彩實驗，領略生命色彩的極致綻放。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card h-100">
+            <img src="images/explore/Rainforest-Two-toed-Sloth.jpg" class="card-img-top" alt="二趾樹懶">
+            <div class="card-body">
+              <h4 class="card-title">二趾樹懶</h4>
+              <p class="card-text">在鬱鬱蔥蔥的「雨林深處」，樹懶以其獨有的「慢生活」哲學，成為森光最療癒的風景。牠悠然地懸掛於蒼勁枝椏間，微閉的雙眼透著一份與世無爭的淡然。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="alert alert-success mt-5" role="alert">琥珀荒野 (Amber Savanna)</h2>
+      <div class="row mb-5">
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card h-100">
+            <img src="images/explore/Savanna-African-lion.jpg" class="card-img-top" alt="非洲獅">
+            <div class="card-body">
+              <h4 class="card-title">非洲獅</h4>
+              <p class="card-text">當斜陽灑落在「草原之巔」，非洲獅正展現著萬獸之王的非凡氣度。金色的鬃毛在陽光下閃耀，與遠方連綿的枯黃草坡交織成一幅壯闊的原野畫卷。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="card h-100">
+            <img src="images/explore/Savanna-red-river-hog.jpg" class="card-img-top" alt="紅河豬">
+            <div class="card-body">
+              <h4 class="card-title">紅河豬</h4>
+              <p class="card-text">來到「薩瓦納河畔」，紅河豬正低頭品味著清澈的溪水。其亮麗的紅褐色毛皮與鮮明的白色背線，在波光粼粼的倒影中顯得格外精緻，為河岸增添了一份溫馨活力。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container mt-5 py-3 mb-3 border-top">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <p class="mb-0 text-secondary">森光動物園 &copy; 2026</p>
+        </div>
+        <div class="col-6 text-end">
+          <a href="#top" class="btn-dark-gold">回到頁面頂端</a>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap雲端JS外部檔 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

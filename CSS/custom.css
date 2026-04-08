@@ -1,0 +1,73 @@
+:root,
+[data-bs-theme=dark] {
+--bs-dark-rgb: 0, 40, 80;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,351;1,351&display=swap');
+
+html {font-size: 20px;}
+
+/* 統一每一個網頁的背景色 */
+body {font-family: "Chiron Hei HK", sans-serif;background: #F1F3F0;}
+
+/*個別指定網頁被景色  */
+/* .bg-color-red {background: #ff0000;} */
+h1 {font-size: 2rem;}
+
+h2 {font-size: 1.8rem;font-weight: 800;color: rgb(39, 102, 229);}
+
+.h2-custom-pink {font-size: 3rem;font-weight: 800;color: rgb(255, 0, 195)}
+
+/* 注意：類名開頭要有個點 . */
+.text-pink {
+    color: #FF69B4; /* 或者你喜歡的粉紅色代碼，例如 #FF69B4 */
+    font-weight: bold; /* 建議加粗，效果更明顯 */
+}
+.btn-dark-gold {
+  /* 暗金色調：使用稍微深沉且帶質感的金屬色 */
+  color: #B8860B; 
+  background-color: transparent;
+  
+  /* 邊框加粗：讓它更有存在感 */
+  border: 3px solid #B8860B; 
+  
+  /* 文字稍微加粗並增加間距，提升專業感 */
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 8px 20px;
+  border-radius: 6px;
+  
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-dark-gold:hover {
+  /* 滑鼠移上去時：背景填滿暗金，文字轉白 */
+  background-color: #B8860B;
+  color: #ffffff !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 增加一點輕微陰影 */
+  transform: translateY(-2px); /* 輕微往上浮動的效果 */
+}
+
+.iconsTitle{
+    font-size:2rem !important;
+    color:rgb(39, 102, 229)
+    vertical-align: text-bottom;
+}
+/* 主標題：森林深綠色 */
+.main-title {
+    color: #2D5A27 !important; /* 深森林綠 */
+    font-weight: bold;
+}
+
+/* 副標題：暖木咖啡色 */
+.sub-title {
+    color: #8B5A2B !important; /* 質感咖啡色 */
+    font-weight: 500;
+}
+
+/* 讓圖示 icon 跟隨主標題顏色 */
+.main-title .material-icons {
+    color: #2D5A27;
+}
